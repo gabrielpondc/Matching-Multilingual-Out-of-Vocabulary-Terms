@@ -1,0 +1,777 @@
+~~~~~~~~~~~~~~~~~~~~
+0    백신패스
+Name: word, dtype: object
+16    健康码
+Name: word, dtype: object Similarity:0.8711361885070801
+5    ワクチンパスポト
+Name: word, dtype: object Similarity:0.8657851219177246
+~~~~~~~~~~~~~~~~~~~~
+1    위드코로나
+Name: word, dtype: object
+3    ウィズコロナ
+Name: word, dtype: object Similarity:0.9363160729408264
+4    段階日常回復
+Name: word, dtype: object Similarity:0.8357565402984619
+~~~~~~~~~~~~~~~~~~~~
+2    접종완료자
+Name: word, dtype: object
+23    完成接种人员
+Name: word, dtype: object Similarity:0.8494367599487305
+0    백신패스
+Name: word, dtype: object Similarity:0.7941517233848572
+5    ワクチンパスポト
+Name: word, dtype: object Similarity:0.7866986393928528
+~~~~~~~~~~~~~~~~~~~~
+3    ウィズコロナ
+Name: word, dtype: object
+1    위드코로나
+Name: word, dtype: object Similarity:0.9363160729408264
+4    段階日常回復
+Name: word, dtype: object Similarity:0.8952844142913818
+~~~~~~~~~~~~~~~~~~~~
+4    段階日常回復
+Name: word, dtype: object
+3    ウィズコロナ
+Name: word, dtype: object Similarity:0.8952844142913818
+1    위드코로나
+Name: word, dtype: object Similarity:0.8357564210891724
+~~~~~~~~~~~~~~~~~~~~
+5    ワクチンパスポト
+Name: word, dtype: object
+16    健康码
+Name: word, dtype: object Similarity:0.870928943157196
+0    백신패스
+Name: word, dtype: object Similarity:0.8657850027084351
+~~~~~~~~~~~~~~~~~~~~
+6    内卷
+Name: word, dtype: object
+7    노오력
+Name: word, dtype: object Similarity:0.9542010426521301
+~~~~~~~~~~~~~~~~~~~~
+7    노오력
+Name: word, dtype: object
+6    内卷
+Name: word, dtype: object Similarity:0.9542008638381958
+96    豆腐メンタル
+Name: word, dtype: object Similarity:0.4700257480144501
+~~~~~~~~~~~~~~~~~~~~
+8    道路族
+Name: word, dtype: object
+31    ヒンナムノー
+Name: word, dtype: object Similarity:0.8440371155738831
+~~~~~~~~~~~~~~~~~~~~
+9    無策政府
+Name: word, dtype: object
+10    가학방역
+Name: word, dtype: object Similarity:0.9500058889389038
+112    黙トレ
+Name: word, dtype: object Similarity:0.48131999373435974
+~~~~~~~~~~~~~~~~~~~~
+10    가학방역
+Name: word, dtype: object
+9    無策政府
+Name: word, dtype: object Similarity:0.9500058889389038
+102    팝콘각
+Name: word, dtype: object Similarity:0.47054916620254517
+~~~~~~~~~~~~~~~~~~~~
+11    原生家庭
+Name: word, dtype: object
+12    親ガチャ
+Name: word, dtype: object Similarity:0.884632408618927
+~~~~~~~~~~~~~~~~~~~~
+12    親ガチャ
+Name: word, dtype: object
+11    原生家庭
+Name: word, dtype: object Similarity:0.8846324682235718
+~~~~~~~~~~~~~~~~~~~~
+13    자택치료
+Name: word, dtype: object
+15    居家
+Name: word, dtype: object Similarity:0.9270709156990051
+14    自宅療養
+Name: word, dtype: object Similarity:0.9228414297103882
+~~~~~~~~~~~~~~~~~~~~
+14    自宅療養
+Name: word, dtype: object
+15    居家
+Name: word, dtype: object Similarity:0.9521985650062561
+13    자택치료
+Name: word, dtype: object Similarity:0.9228414297103882
+~~~~~~~~~~~~~~~~~~~~
+15    居家
+Name: word, dtype: object
+14    自宅療養
+Name: word, dtype: object Similarity:0.9521985054016113
+13    자택치료
+Name: word, dtype: object Similarity:0.9270708560943604
+~~~~~~~~~~~~~~~~~~~~
+16    健康码
+Name: word, dtype: object
+0    백신패스
+Name: word, dtype: object Similarity:0.8711361289024353
+5    ワクチンパスポト
+Name: word, dtype: object Similarity:0.8709290027618408
+~~~~~~~~~~~~~~~~~~~~
+17    数媒土著
+Name: word, dtype: object
+19    MZ세대
+Name: word, dtype: object Similarity:0.9421187043190002
+18    Z世代
+Name: word, dtype: object Similarity:0.9267177581787109
+~~~~~~~~~~~~~~~~~~~~
+18    Z世代
+Name: word, dtype: object
+17    数媒土著
+Name: word, dtype: object Similarity:0.9267178177833557
+19    MZ세대
+Name: word, dtype: object Similarity:0.8859306573867798
+~~~~~~~~~~~~~~~~~~~~
+19    MZ세대
+Name: word, dtype: object
+17    数媒土著
+Name: word, dtype: object Similarity:0.9421187043190002
+18    Z世代
+Name: word, dtype: object Similarity:0.8859307169914246
+~~~~~~~~~~~~~~~~~~~~
+20    관둠
+Name: word, dtype: object
+21    静かな退職
+Name: word, dtype: object Similarity:0.9229418635368347
+22    躺平
+Name: word, dtype: object Similarity:0.888073742389679
+~~~~~~~~~~~~~~~~~~~~
+21    静かな退職
+Name: word, dtype: object
+20    관둠
+Name: word, dtype: object Similarity:0.9229418635368347
+22    躺平
+Name: word, dtype: object Similarity:0.9098423719406128
+~~~~~~~~~~~~~~~~~~~~
+22    躺平
+Name: word, dtype: object
+21    静かな退職
+Name: word, dtype: object Similarity:0.909842312335968
+20    관둠
+Name: word, dtype: object Similarity:0.8880736231803894
+~~~~~~~~~~~~~~~~~~~~
+23    完成接种人员
+Name: word, dtype: object
+2    접종완료자
+Name: word, dtype: object Similarity:0.8494369387626648
+5    ワクチンパスポト
+Name: word, dtype: object Similarity:0.8061788082122803
+16    健康码
+Name: word, dtype: object Similarity:0.7964211106300354
+~~~~~~~~~~~~~~~~~~~~
+24    미접종자
+Name: word, dtype: object
+28    花の道
+Name: word, dtype: object Similarity:0.8295451998710632
+54    隔离经济
+Name: word, dtype: object Similarity:0.8167161345481873
+~~~~~~~~~~~~~~~~~~~~
+25    オミクロン
+Name: word, dtype: object
+26    奥密克戎毒株
+Name: word, dtype: object Similarity:0.847954511642456
+4    段階日常回復
+Name: word, dtype: object Similarity:0.7803981900215149
+23    完成接种人员
+Name: word, dtype: object Similarity:0.7738814353942871
+~~~~~~~~~~~~~~~~~~~~
+26    奥密克戎毒株
+Name: word, dtype: object
+25    オミクロン
+Name: word, dtype: object Similarity:0.8479544520378113
+~~~~~~~~~~~~~~~~~~~~
+27    走花路
+Name: word, dtype: object
+29    꽃길
+Name: word, dtype: object Similarity:0.8846777081489563
+28    花の道
+Name: word, dtype: object Similarity:0.8792369961738586
+~~~~~~~~~~~~~~~~~~~~
+28    花の道
+Name: word, dtype: object
+29    꽃길
+Name: word, dtype: object Similarity:0.8818374872207642
+27    走花路
+Name: word, dtype: object Similarity:0.8792369961738586
+~~~~~~~~~~~~~~~~~~~~
+29    꽃길
+Name: word, dtype: object
+27    走花路
+Name: word, dtype: object Similarity:0.8846777081489563
+28    花の道
+Name: word, dtype: object Similarity:0.8818374872207642
+~~~~~~~~~~~~~~~~~~~~
+30    轩岚诺
+Name: word, dtype: object
+32    힌남노
+Name: word, dtype: object Similarity:0.8707091808319092
+31    ヒンナムノー
+Name: word, dtype: object Similarity:0.8485875129699707
+~~~~~~~~~~~~~~~~~~~~
+31    ヒンナムノー
+Name: word, dtype: object
+32    힌남노
+Name: word, dtype: object Similarity:0.9280112981796265
+~~~~~~~~~~~~~~~~~~~~
+32    힌남노
+Name: word, dtype: object
+31    ヒンナムノー
+Name: word, dtype: object Similarity:0.9280112981796265
+30    轩岚诺
+Name: word, dtype: object Similarity:0.8707093000411987
+~~~~~~~~~~~~~~~~~~~~
+33    捂脸笑
+Name: word, dtype: object
+34    웃안웃
+Name: word, dtype: object Similarity:0.9505524635314941
+~~~~~~~~~~~~~~~~~~~~
+34    웃안웃
+Name: word, dtype: object
+33    捂脸笑
+Name: word, dtype: object Similarity:0.9505525827407837
+96    豆腐メンタル
+Name: word, dtype: object Similarity:0.4803606867790222
+~~~~~~~~~~~~~~~~~~~~
+35    吃播
+Name: word, dtype: object
+37    モッパン
+Name: word, dtype: object Similarity:0.9375470280647278
+36    먹방
+Name: word, dtype: object Similarity:0.9130111336708069
+~~~~~~~~~~~~~~~~~~~~
+36    먹방
+Name: word, dtype: object
+37    モッパン
+Name: word, dtype: object Similarity:0.9311838150024414
+35    吃播
+Name: word, dtype: object Similarity:0.9130110740661621
+~~~~~~~~~~~~~~~~~~~~
+37    モッパン
+Name: word, dtype: object
+35    吃播
+Name: word, dtype: object Similarity:0.9375470876693726
+36    먹방
+Name: word, dtype: object Similarity:0.9311838150024414
+~~~~~~~~~~~~~~~~~~~~
+38    퐁퐁남
+Name: word, dtype: object
+40    恐妻家
+Name: word, dtype: object Similarity:0.9338971972465515
+39    妻管严
+Name: word, dtype: object Similarity:0.9187108278274536
+~~~~~~~~~~~~~~~~~~~~
+39    妻管严
+Name: word, dtype: object
+40    恐妻家
+Name: word, dtype: object Similarity:0.9260806441307068
+38    퐁퐁남
+Name: word, dtype: object Similarity:0.9187107682228088
+~~~~~~~~~~~~~~~~~~~~
+40    恐妻家
+Name: word, dtype: object
+38    퐁퐁남
+Name: word, dtype: object Similarity:0.9338972568511963
+39    妻管严
+Name: word, dtype: object Similarity:0.9260807037353516
+~~~~~~~~~~~~~~~~~~~~
+41    マザコン男
+Name: word, dtype: object
+43    마마보이
+Name: word, dtype: object Similarity:0.9172650575637817
+42    妈宝男
+Name: word, dtype: object Similarity:0.8399913907051086
+~~~~~~~~~~~~~~~~~~~~
+42    妈宝男
+Name: word, dtype: object
+43    마마보이
+Name: word, dtype: object Similarity:0.9222599864006042
+41    マザコン男
+Name: word, dtype: object Similarity:0.8399913311004639
+~~~~~~~~~~~~~~~~~~~~
+43    마마보이
+Name: word, dtype: object
+42    妈宝男
+Name: word, dtype: object Similarity:0.922260046005249
+41    マザコン男
+Name: word, dtype: object Similarity:0.917264997959137
+~~~~~~~~~~~~~~~~~~~~
+44    计划人生
+Name: word, dtype: object
+46    人生設計
+Name: word, dtype: object Similarity:0.9335691928863525
+45    갓생
+Name: word, dtype: object Similarity:0.8829239010810852
+~~~~~~~~~~~~~~~~~~~~
+45    갓생
+Name: word, dtype: object
+46    人生設計
+Name: word, dtype: object Similarity:0.914542555809021
+44    计划人生
+Name: word, dtype: object Similarity:0.8829239010810852
+~~~~~~~~~~~~~~~~~~~~
+46    人生設計
+Name: word, dtype: object
+44    计划人生
+Name: word, dtype: object Similarity:0.9335693120956421
+45    갓생
+Name: word, dtype: object Similarity:0.914542555809021
+~~~~~~~~~~~~~~~~~~~~
+47    보복소비
+Name: word, dtype: object
+48    报复性消费
+Name: word, dtype: object Similarity:0.9140018224716187
+49    報復消費
+Name: word, dtype: object Similarity:0.8909102082252502
+~~~~~~~~~~~~~~~~~~~~
+48    报复性消费
+Name: word, dtype: object
+49    報復消費
+Name: word, dtype: object Similarity:0.9155493378639221
+47    보복소비
+Name: word, dtype: object Similarity:0.9140017628669739
+~~~~~~~~~~~~~~~~~~~~
+49    報復消費
+Name: word, dtype: object
+48    报复性消费
+Name: word, dtype: object Similarity:0.9155492782592773
+47    보복소비
+Name: word, dtype: object Similarity:0.8909102082252502
+~~~~~~~~~~~~~~~~~~~~
+50    포스트코로나
+Name: word, dtype: object
+51    后疫情时代
+Name: word, dtype: object Similarity:0.8936609029769897
+52    ポストコロナ
+Name: word, dtype: object Similarity:0.8881308436393738
+~~~~~~~~~~~~~~~~~~~~
+51    后疫情时代
+Name: word, dtype: object
+52    ポストコロナ
+Name: word, dtype: object Similarity:0.920512318611145
+50    포스트코로나
+Name: word, dtype: object Similarity:0.8936609029769897
+~~~~~~~~~~~~~~~~~~~~
+52    ポストコロナ
+Name: word, dtype: object
+51    后疫情时代
+Name: word, dtype: object Similarity:0.920512318611145
+50    포스트코로나
+Name: word, dtype: object Similarity:0.8881308436393738
+~~~~~~~~~~~~~~~~~~~~
+53    큐코노미
+Name: word, dtype: object
+54    隔离经济
+Name: word, dtype: object Similarity:0.9098622798919678
+~~~~~~~~~~~~~~~~~~~~
+54    隔离经济
+Name: word, dtype: object
+53    큐코노미
+Name: word, dtype: object Similarity:0.9098622798919678
+~~~~~~~~~~~~~~~~~~~~
+55    ジェンダー平等
+Name: word, dtype: object
+56    性别平等
+Name: word, dtype: object Similarity:0.9202031493186951
+57    젠더평등
+Name: word, dtype: object Similarity:0.872948408126831
+~~~~~~~~~~~~~~~~~~~~
+56    性别平等
+Name: word, dtype: object
+55    ジェンダー平等
+Name: word, dtype: object Similarity:0.9202032089233398
+57    젠더평등
+Name: word, dtype: object Similarity:0.8470601439476013
+~~~~~~~~~~~~~~~~~~~~
+57    젠더평등
+Name: word, dtype: object
+55    ジェンダー平等
+Name: word, dtype: object Similarity:0.8729483485221863
+~~~~~~~~~~~~~~~~~~~~
+58    인파
+Name: word, dtype: object
+59    人流
+Name: word, dtype: object Similarity:0.9088757634162903
+~~~~~~~~~~~~~~~~~~~~
+59    人流
+Name: word, dtype: object
+58    인파
+Name: word, dtype: object Similarity:0.9088756442070007
+~~~~~~~~~~~~~~~~~~~~
+60    메타버스
+Name: word, dtype: object
+62    元宇宙
+Name: word, dtype: object Similarity:0.9244627952575684
+61    メタバース
+Name: word, dtype: object Similarity:0.9179646372795105
+~~~~~~~~~~~~~~~~~~~~
+61    メタバース
+Name: word, dtype: object
+60    메타버스
+Name: word, dtype: object Similarity:0.9179646968841553
+62    元宇宙
+Name: word, dtype: object Similarity:0.894336998462677
+~~~~~~~~~~~~~~~~~~~~
+62    元宇宙
+Name: word, dtype: object
+60    메타버스
+Name: word, dtype: object Similarity:0.9244627356529236
+61    メタバース
+Name: word, dtype: object Similarity:0.8943369388580322
+~~~~~~~~~~~~~~~~~~~~
+63    インフルエンザ-
+Name: word, dtype: object
+64    网红
+Name: word, dtype: object Similarity:0.9508645534515381
+81    键盘侠
+Name: word, dtype: object Similarity:0.8148508667945862
+80    荒らし
+Name: word, dtype: object Similarity:0.8065606951713562
+~~~~~~~~~~~~~~~~~~~~
+64    网红
+Name: word, dtype: object
+63    インフルエンザ-
+Name: word, dtype: object Similarity:0.9508645534515381
+81    键盘侠
+Name: word, dtype: object Similarity:0.8121041655540466
+~~~~~~~~~~~~~~~~~~~~
+65    맘충
+Name: word, dtype: object
+66    妈虫
+Name: word, dtype: object Similarity:0.9447152614593506
+67    ママ虫
+Name: word, dtype: object Similarity:0.9125327467918396
+~~~~~~~~~~~~~~~~~~~~
+66    妈虫
+Name: word, dtype: object
+65    맘충
+Name: word, dtype: object Similarity:0.9447153210639954
+67    ママ虫
+Name: word, dtype: object Similarity:0.9180376529693604
+~~~~~~~~~~~~~~~~~~~~
+67    ママ虫
+Name: word, dtype: object
+66    妈虫
+Name: word, dtype: object Similarity:0.9180377721786499
+65    맘충
+Name: word, dtype: object Similarity:0.9125327467918396
+~~~~~~~~~~~~~~~~~~~~
+68    비담
+Name: word, dtype: object
+69    颜值担当
+Name: word, dtype: object Similarity:0.9344280958175659
+70    ビジュアル担当
+Name: word, dtype: object Similarity:0.8887972235679626
+~~~~~~~~~~~~~~~~~~~~
+69    颜值担当
+Name: word, dtype: object
+68    비담
+Name: word, dtype: object Similarity:0.9344280958175659
+70    ビジュアル担当
+Name: word, dtype: object Similarity:0.9326313138008118
+~~~~~~~~~~~~~~~~~~~~
+70    ビジュアル担当
+Name: word, dtype: object
+69    颜值担当
+Name: word, dtype: object Similarity:0.932631254196167
+68    비담
+Name: word, dtype: object Similarity:0.8887971043586731
+~~~~~~~~~~~~~~~~~~~~
+71    스몸비
+Name: word, dtype: object
+72    歩きスマホ
+Name: word, dtype: object Similarity:0.9259287714958191
+87    低头族
+Name: word, dtype: object Similarity:0.8315597772598267
+~~~~~~~~~~~~~~~~~~~~
+72    歩きスマホ
+Name: word, dtype: object
+71    스몸비
+Name: word, dtype: object Similarity:0.9259288311004639
+~~~~~~~~~~~~~~~~~~~~
+73    지독한놈
+Name: word, dtype: object
+74    是个狼人
+Name: word, dtype: object Similarity:0.9484730958938599
+~~~~~~~~~~~~~~~~~~~~
+74    是个狼人
+Name: word, dtype: object
+73    지독한놈
+Name: word, dtype: object Similarity:0.9484732151031494
+~~~~~~~~~~~~~~~~~~~~
+75    냥집사
+Name: word, dtype: object
+76    铲屎官
+Name: word, dtype: object Similarity:0.9494602084159851
+77    愛猫家
+Name: word, dtype: object Similarity:0.9147176146507263
+~~~~~~~~~~~~~~~~~~~~
+76    铲屎官
+Name: word, dtype: object
+75    냥집사
+Name: word, dtype: object Similarity:0.9494602680206299
+77    愛猫家
+Name: word, dtype: object Similarity:0.90790194272995
+~~~~~~~~~~~~~~~~~~~~
+77    愛猫家
+Name: word, dtype: object
+75    냥집사
+Name: word, dtype: object Similarity:0.9147177338600159
+76    铲屎官
+Name: word, dtype: object Similarity:0.90790194272995
+~~~~~~~~~~~~~~~~~~~~
+78    刷屏
+Name: word, dtype: object
+79    マルチ
+Name: word, dtype: object Similarity:0.9436004757881165
+80    荒らし
+Name: word, dtype: object Similarity:0.8426815867424011
+81    键盘侠
+Name: word, dtype: object Similarity:0.8412244915962219
+~~~~~~~~~~~~~~~~~~~~
+79    マルチ
+Name: word, dtype: object
+78    刷屏
+Name: word, dtype: object Similarity:0.9436005353927612
+81    键盘侠
+Name: word, dtype: object Similarity:0.8314358592033386
+~~~~~~~~~~~~~~~~~~~~
+80    荒らし
+Name: word, dtype: object
+81    键盘侠
+Name: word, dtype: object Similarity:0.9438940286636353
+82    키보드전사
+Name: word, dtype: object Similarity:0.9284170269966125
+~~~~~~~~~~~~~~~~~~~~
+81    键盘侠
+Name: word, dtype: object
+80    荒らし
+Name: word, dtype: object Similarity:0.9438939690589905
+82    키보드전사
+Name: word, dtype: object Similarity:0.9224417805671692
+~~~~~~~~~~~~~~~~~~~~
+82    키보드전사
+Name: word, dtype: object
+80    荒らし
+Name: word, dtype: object Similarity:0.9284170866012573
+81    键盘侠
+Name: word, dtype: object Similarity:0.922441840171814
+~~~~~~~~~~~~~~~~~~~~
+83    废柴老公
+Name: word, dtype: object
+84    ダメダン
+Name: word, dtype: object Similarity:0.9132563471794128
+36    먹방
+Name: word, dtype: object Similarity:0.8286483883857727
+~~~~~~~~~~~~~~~~~~~~
+84    ダメダン
+Name: word, dtype: object
+83    废柴老公
+Name: word, dtype: object Similarity:0.9132562875747681
+20    관둠
+Name: word, dtype: object Similarity:0.7986218929290771
+~~~~~~~~~~~~~~~~~~~~
+85    YYDS
+Name: word, dtype: object
+86    神推し
+Name: word, dtype: object Similarity:0.9560852646827698
+77    愛猫家
+Name: word, dtype: object Similarity:0.8219743371009827
+~~~~~~~~~~~~~~~~~~~~
+86    神推し
+Name: word, dtype: object
+85    YYDS
+Name: word, dtype: object Similarity:0.9560852646827698
+77    愛猫家
+Name: word, dtype: object Similarity:0.8186566233634949
+~~~~~~~~~~~~~~~~~~~~
+87    低头族
+Name: word, dtype: object
+72    歩きスマホ
+Name: word, dtype: object Similarity:0.8389008641242981
+71    스몸비
+Name: word, dtype: object Similarity:0.8315597772598267
+105    颜控
+Name: word, dtype: object Similarity:0.8314597606658936
+~~~~~~~~~~~~~~~~~~~~
+88    식집사
+Name: word, dtype: object
+93    재택근무
+Name: word, dtype: object Similarity:0.8313723802566528
+~~~~~~~~~~~~~~~~~~~~
+89    만잘부
+Name: word, dtype: object
+109    老铁
+Name: word, dtype: object Similarity:0.8631759285926819
+~~~~~~~~~~~~~~~~~~~~
+90    网课大学
+Name: word, dtype: object
+91    줌유니버시티
+Name: word, dtype: object Similarity:0.934674084186554
+94    居家办公
+Name: word, dtype: object Similarity:0.8171713948249817
+~~~~~~~~~~~~~~~~~~~~
+91    줌유니버시티
+Name: word, dtype: object
+90    网课大学
+Name: word, dtype: object Similarity:0.934674084186554
+113    ウェビナー
+Name: word, dtype: object Similarity:0.8030940890312195
+94    居家办公
+Name: word, dtype: object Similarity:0.7993209362030029
+~~~~~~~~~~~~~~~~~~~~
+92    在宅ワーク
+Name: word, dtype: object
+95    在宅勤務
+Name: word, dtype: object Similarity:0.9528082609176636
+94    居家办公
+Name: word, dtype: object Similarity:0.9017288088798523
+93    재택근무
+Name: word, dtype: object Similarity:0.8887472152709961
+~~~~~~~~~~~~~~~~~~~~
+93    재택근무
+Name: word, dtype: object
+95    在宅勤務
+Name: word, dtype: object Similarity:0.9083604216575623
+92    在宅ワーク
+Name: word, dtype: object Similarity:0.8887472152709961
+94    居家办公
+Name: word, dtype: object Similarity:0.8863464593887329
+~~~~~~~~~~~~~~~~~~~~
+94    居家办公
+Name: word, dtype: object
+92    在宅ワーク
+Name: word, dtype: object Similarity:0.9017288088798523
+93    재택근무
+Name: word, dtype: object Similarity:0.8863463997840881
+95    在宅勤務
+Name: word, dtype: object Similarity:0.8776994943618774
+~~~~~~~~~~~~~~~~~~~~
+95    在宅勤務
+Name: word, dtype: object
+92    在宅ワーク
+Name: word, dtype: object Similarity:0.9528082609176636
+93    재택근무
+Name: word, dtype: object Similarity:0.9083603024482727
+94    居家办公
+Name: word, dtype: object Similarity:0.8776994943618774
+~~~~~~~~~~~~~~~~~~~~
+96    豆腐メンタル
+Name: word, dtype: object
+98    쿠크
+Name: word, dtype: object Similarity:0.94749516248703
+97    玻璃心
+Name: word, dtype: object Similarity:0.9254288673400879
+~~~~~~~~~~~~~~~~~~~~
+97    玻璃心
+Name: word, dtype: object
+96    豆腐メンタル
+Name: word, dtype: object Similarity:0.9254290461540222
+98    쿠크
+Name: word, dtype: object Similarity:0.9243890047073364
+~~~~~~~~~~~~~~~~~~~~
+98    쿠크
+Name: word, dtype: object
+96    豆腐メンタル
+Name: word, dtype: object Similarity:0.9474953413009644
+97    玻璃心
+Name: word, dtype: object Similarity:0.9243890643119812
+~~~~~~~~~~~~~~~~~~~~
+99    伸手党
+Name: word, dtype: object
+100    教えてチャン
+Name: word, dtype: object Similarity:0.9448122978210449
+101    핑프
+Name: word, dtype: object Similarity:0.9399407505989075
+~~~~~~~~~~~~~~~~~~~~
+100    教えてチャン
+Name: word, dtype: object
+99    伸手党
+Name: word, dtype: object Similarity:0.9448122978210449
+101    핑프
+Name: word, dtype: object Similarity:0.8997235894203186
+~~~~~~~~~~~~~~~~~~~~
+101    핑프
+Name: word, dtype: object
+99    伸手党
+Name: word, dtype: object Similarity:0.9399407505989075
+100    教えてチャン
+Name: word, dtype: object Similarity:0.8997235298156738
+~~~~~~~~~~~~~~~~~~~~
+102    팝콘각
+Name: word, dtype: object
+103    吃瓜
+Name: word, dtype: object Similarity:0.950378954410553
+~~~~~~~~~~~~~~~~~~~~
+103    吃瓜
+Name: word, dtype: object
+102    팝콘각
+Name: word, dtype: object Similarity:0.950378954410553
+~~~~~~~~~~~~~~~~~~~~
+104    面食い
+Name: word, dtype: object
+105    颜控
+Name: word, dtype: object Similarity:0.8086445927619934
+~~~~~~~~~~~~~~~~~~~~
+105    颜控
+Name: word, dtype: object
+87    低头族
+Name: word, dtype: object Similarity:0.8314595818519592
+104    面食い
+Name: word, dtype: object Similarity:0.8086445331573486
+~~~~~~~~~~~~~~~~~~~~
+106    丧偶式育儿
+Name: word, dtype: object
+107    독박육아
+Name: word, dtype: object Similarity:0.9204990267753601
+~~~~~~~~~~~~~~~~~~~~
+107    독박육아
+Name: word, dtype: object
+106    丧偶式育儿
+Name: word, dtype: object Similarity:0.9204990863800049
+108    ウンオペ
+Name: word, dtype: object Similarity:0.909345805644989
+~~~~~~~~~~~~~~~~~~~~
+108    ウンオペ
+Name: word, dtype: object
+107    독박육아
+Name: word, dtype: object Similarity:0.909345805644989
+~~~~~~~~~~~~~~~~~~~~
+109    老铁
+Name: word, dtype: object
+89    만잘부
+Name: word, dtype: object Similarity:0.8631758689880371
+~~~~~~~~~~~~~~~~~~~~
+110    后浪
+Name: word, dtype: object
+18    Z世代
+Name: word, dtype: object Similarity:0.8634458780288696
+~~~~~~~~~~~~~~~~~~~~
+111    SBN
+Name: word, dtype: object
+109    老铁
+Name: word, dtype: object Similarity:0.8387004733085632
+~~~~~~~~~~~~~~~~~~~~
+112    黙トレ
+Name: word, dtype: object
+9    無策政府
+Name: word, dtype: object Similarity:0.48132002353668213
+~~~~~~~~~~~~~~~~~~~~
+113    ウェビナー
+Name: word, dtype: object
+94    居家办公
+Name: word, dtype: object Similarity:0.8316395282745361
+91    줌유니버시티
+Name: word, dtype: object Similarity:0.8030940890312195
+90    网课大学
+Name: word, dtype: object Similarity:0.8001293540000916
+~~~~~~~~~~~~~~~~~~~~
+114    당모치
+Name: word, dtype: object
+12    親ガチャ
+Name: word, dtype: object Similarity:0.8152569532394409
+86    神推し
+Name: word, dtype: object Similarity:0.7964447140693665
