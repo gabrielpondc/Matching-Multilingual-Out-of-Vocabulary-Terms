@@ -1,3 +1,4 @@
+import torch
 def preprocess_nxgraph(graph):
     node2idx = {}
     idx2node = []
