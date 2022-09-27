@@ -1,5 +1,3 @@
-from __future__ import print_function
-
 import numpy
 from sklearn.metrics import f1_score, accuracy_score
 from sklearn.multiclass import OneVsRestClassifier
@@ -7,6 +5,9 @@ from sklearn.preprocessing import MultiLabelBinarizer
 
 
 class TopKRanker(OneVsRestClassifier):
+    def __init__(self):
+        pass
+
     def predict(self, X, top_k_list):
         probs = numpy.asarray(super(TopKRanker, self).predict_proba(X))
         all_labels = []
@@ -40,9 +41,10 @@ class Classifier(object):
         results = {}
         for average in averages:
             results[average] = f1_score(Y, Y_, average=average)
-        results['acc'] = accuracy_score(Y, Y_)
+        results['acc'] = accuracy_score(Y,Y_)
         print('-------------------')
         print(results)
+        print('-------------------')
         return results
 
     def predict(self, X, top_k_list):
@@ -64,20 +66,3 @@ class Classifier(object):
         self.train(X_train, Y_train, Y)
         numpy.random.set_state(state)
         return self.evaluate(X_test, Y_test)
-
-
-def read_node_label(filename, skip_head=False):
-    fin = open(filename, 'r')
-    X = []
-    Y = []
-    while 1:
-        if skip_head:
-            fin.readline()
-        l = fin.readline()
-        if l == '':
-            break
-        vec = l.strip().split(' ')
-        X.append(vec[0])
-        Y.append(vec[1:])
-    fin.close()
-    return X, Y

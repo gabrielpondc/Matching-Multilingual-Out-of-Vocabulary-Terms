@@ -1,42 +1,16 @@
-# -*- coding:utf-8 -*-
-
-"""
-
-
-
-Author:
-
-    Weichen Shen,weichenswc@163.com
-
-
-
-Reference:
-
-    [1] Ribeiro L F R, Saverese P H P, Figueiredo D R. struc2vec: Learning node representations from structural identity[C]//Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2017: 385-394.(https://arxiv.org/pdf/1704.03165.pdf)
-
-
-
-"""
-
-import math
-import os
-import shutil
-from collections import ChainMap, deque
-
-import numpy as np
-import pandas as pd
+import os 
+import math 
+import shutils 
+import collections
+import numpy as np 
+import pandas as pd 
+from utils import partition_dict,preprocess_nxgraph
 from fastdtw import fastdtw
-from gensim.models import Word2Vec
-from joblib import Parallel, delayed
 
-from ..alias import create_alias_table
-from ..utils import partition_dict, preprocess_nxgraph
 from ..walker import BiasedWalker
 
-
 class Struc2Vec():
-    def __init__(self, graph, walk_length=10, num_walks=100, workers=1, verbose=0, stay_prob=0.3, opt1_reduce_len=True,
-                 opt2_reduce_sim_calc=True, opt3_num_layers=None, temp_path='./temp_struc2vec/', reuse=False):
+    def __init__(self, graph, walk_length=10, num_walks=100, workers=1, verbose=0, stay_prob=0.3, opt1_reduce_len=True, opt2_reduce_sim_calc=True, opt3_num_layers=None, temp_path='./temp_struc2vec/', reuse=False):
         self.graph = graph
         self.idx2node, self.node2idx = preprocess_nxgraph(graph)
         self.idx = list(range(len(self.idx2node)))
@@ -62,10 +36,10 @@ class Struc2Vec():
 
         self._embeddings = {}
 
-    def create_context_graph(self, max_num_layers, workers=1, verbose=0, ):
+    def create_context_graph(self, max_num_layers, workers=1, verbose=0,):
 
         pair_distances = self._compute_structural_distance(
-            max_num_layers, workers, verbose, )
+            max_num_layers, workers, verbose,)
         layers_adj, layers_distances = self._get_layer_rep(pair_distances)
         pd.to_pickle(layers_adj, self.temp_path + 'layers_adj.pkl')
 
@@ -74,16 +48,16 @@ class Struc2Vec():
         pd.to_pickle(layers_alias, self.temp_path + 'layers_alias.pkl')
         pd.to_pickle(layers_accept, self.temp_path + 'layers_accept.pkl')
 
-    def prepare_biased_walk(self, ):
+    def prepare_biased_walk(self,):
 
         sum_weights = {}
         sum_edges = {}
         average_weight = {}
         gamma = {}
         layer = 0
-        while (os.path.exists(self.temp_path + 'norm_weights_distance-layer-' + str(layer) + '.pkl')):
+        while (os.path.exists(self.temp_path+'norm_weights_distance-layer-' + str(layer)+'.pkl')):
             probs = pd.read_pickle(
-                self.temp_path + 'norm_weights_distance-layer-' + str(layer) + '.pkl')
+                self.temp_path+'norm_weights_distance-layer-' + str(layer)+'.pkl')
             for v, list_weights in probs.items():
                 sum_weights.setdefault(layer, 0)
                 sum_edges.setdefault(layer, 0)
@@ -112,15 +86,14 @@ class Struc2Vec():
         sentences = self.sentences
 
         print("Learning representation...")
-        model = Word2Vec(sentences, vector_size=embed_size, window=window_size, min_count=0, hs=1, sg=1,
-                         workers=workers,
-                         epochs=iter)
+        model = Word2Vec(sentences, size=embed_size, window=window_size, min_count=0, hs=1, sg=1, workers=workers,
+                         iter=iter)
         print("Learning representation done!")
         self.w2v_model = model
 
         return model
 
-    def get_embeddings(self, ):
+    def get_embeddings(self,):
         if self.w2v_model is None:
             print("model not train")
             return {}
@@ -185,11 +158,11 @@ class Struc2Vec():
 
         return ordered_degree_sequence_dict
 
-    def _compute_structural_distance(self, max_num_layers, workers=1, verbose=0, ):
+    def _compute_structural_distance(self, max_num_layers, workers=1, verbose=0,):
 
-        if os.path.exists(self.temp_path + 'structural_dist.pkl'):
+        if os.path.exists(self.temp_path+'structural_dist.pkl'):
             structural_dist = pd.read_pickle(
-                self.temp_path + 'structural_dist.pkl')
+                self.temp_path+'structural_dist.pkl')
         else:
             if self.opt1_reduce_len:
                 dist_func = cost_max
@@ -220,9 +193,8 @@ class Struc2Vec():
                 for v in degreeList:
                     vertices[v] = [vd for vd in degreeList.keys() if vd > v]
 
-            results = Parallel(n_jobs=workers, verbose=verbose, )(
-                delayed(compute_dtw_dist)(part_list, degreeList, dist_func) for part_list in
-                partition_dict(vertices, workers))
+            results = Parallel(n_jobs=workers, verbose=verbose,)(
+                delayed(compute_dtw_dist)(part_list, degreeList, dist_func) for part_list in partition_dict(vertices, workers))
             dtw_dist = dict(ChainMap(*results))
 
             structural_dist = convert_dtw_struc_dist(dtw_dist)
@@ -305,7 +277,7 @@ class Struc2Vec():
                 node_accept_dict[v] = accept
 
             pd.to_pickle(
-                norm_weights, self.temp_path + 'norm_weights_distance-layer-' + str(layer) + '.pkl')
+                norm_weights, self.temp_path + 'norm_weights_distance-layer-' + str(layer)+'.pkl')
 
             layers_alias[layer] = node_alias_dict
             layers_accept[layer] = node_accept_dict
@@ -336,7 +308,6 @@ def cost_max(a, b):
 
 def convert_dtw_struc_dist(distances, startLayer=1):
     """
-
     :param distances: dict of dict
     :param startLayer:
     :return:
@@ -408,11 +379,12 @@ def get_vertices(v, degree_v, degrees, n_nodes):
 
 
 def verifyDegrees(degrees, degree_v_root, degree_a, degree_b):
-    if (degree_b == -1):
+
+    if(degree_b == -1):
         degree_now = degree_a
-    elif (degree_a == -1):
+    elif(degree_a == -1):
         degree_now = degree_b
-    elif (abs(degree_b - degree_v_root) < abs(degree_a - degree_v_root)):
+    elif(abs(degree_b - degree_v_root) < abs(degree_a - degree_v_root)):
         degree_now = degree_b
     else:
         degree_now = degree_a
