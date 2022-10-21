@@ -1,0 +1,1 @@
+plot 'd.txt' using 2:xticlabels(1) title columnheader(1), 'd.txt' using 3:xticlabels(1) title columnheader(1)

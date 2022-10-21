@@ -1,0 +1,12 @@
+### 文件开始 ###
+# Compare result
+#
+# 
+# ==============
+Algorithm Precision Recall F1-Score
+Deeepwalk 0.8640 0.89 0.8768   
+LINE 0.68 0.8192  0.7431   
+SDNE 0.8416 0.8673 0.8542   
+Struc2Vec 0.9320 0.8888 0.9098   
+ProNE 0.8039 0.8631 0.8324   
+### 文件结束 ###
