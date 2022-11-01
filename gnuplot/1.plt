@@ -11,7 +11,7 @@
 #    	faq, bugs, etc:   type "help FAQ"
 #    	immediate help:   type "help"  (plot window: hit 'h')
 #set term cairolatex eps size 12cm,6cm
-set output "sin.tex"
+#set output "sin.tex"
 unset clip points
 set clip one
 unset clip two
@@ -45,7 +45,7 @@ unset raxis
 set theta counterclockwise right
 set style parallel front  lt black linewidth 2.000 dashtype solid
 set key title "" center
-set key fixed center right  outside vertical Right noreverse enhanced autotitle nobox
+set key fixed center vertical Right noreverse outside autotitle nobox
 set key noinvert samplen 4 spacing 1 width 0 height 0 
 set key maxcolumns 0 maxrows 0
 set key noopaque
@@ -153,7 +153,6 @@ set lmargin  -1
 set bmargin  -1
 set rmargin  -1
 set tmargin  -1
-set locale "Chinese (Simplified)_China.936"
 set pm3d explicit at s
 set pm3d scansautomatic
 set pm3d interpolate 1,1 flush begin noftriangles noborder corners2color mean
